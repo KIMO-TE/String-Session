@@ -14,13 +14,6 @@ optional = false
 python-versions = "*"
 version = "0.4.8"
 
-[[package]]
-category = "main"
-description = "Telegram MTProto API Client Library and Framework for Python"
-name = "pyrogram"
-optional = false
-python-versions = "~=3.5"
-version = "0.17.1"
 
 [package.dependencies]
 pyaes = "1.6.1"
@@ -90,10 +83,6 @@ pyasn1 = [
     {file = "pyasn1-0.4.8-py3.6.egg", hash = "sha256:014c0e9976956a08139dc0712ae195324a75e142284d5f87f1a87ee1b068a359"},
     {file = "pyasn1-0.4.8-py3.7.egg", hash = "sha256:99fcc3c8d804d1bc6d9a099921e39d827026409a58f2a720dcdb89374ea0c776"},
     {file = "pyasn1-0.4.8.tar.gz", hash = "sha256:aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba"},
-]
-pyrogram = [
-    {file = "Pyrogram-0.17.1-py3-none-any.whl", hash = "sha256:0dc98fa1c9b2a80044f8d69f7ff6d0f8edce9582b48f45556d8591a3c4d62d33"},
-    {file = "Pyrogram-0.17.1.tar.gz", hash = "sha256:804951639c86cf594d0b8e25872e2baf3ec76c82882cc6c2293210fa6642e311"},
 ]
 pysocks = [
     {file = "PySocks-1.7.1-py27-none-any.whl", hash = "sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299"},
