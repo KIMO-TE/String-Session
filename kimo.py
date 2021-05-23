@@ -1,7 +1,6 @@
 import time
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
-from pyrogram import Client
 
 select = " "
 
