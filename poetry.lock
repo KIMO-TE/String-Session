@@ -1,5 +1,5 @@
 [[package]]
-category = "kimo"
+category = "main"
 description = "Pure-Python Implementation of the AES block-cipher and common modes of operation"
 name = "pyaes"
 optional = false
@@ -7,7 +7,7 @@ python-versions = "*"
 version = "1.6.1"
 
 [[package]]
-category = "kimo"
+category = "main"
 description = "ASN.1 types and codecs"
 name = "pyasn1"
 optional = false
@@ -15,7 +15,7 @@ python-versions = "*"
 version = "0.4.8"
 
 [[package]]
-category = "kimo"
+category = "main"
 description = "Telegram MTProto API Client Library and Framework for Python"
 name = "pyrogram"
 optional = false
@@ -27,7 +27,7 @@ pyaes = "1.6.1"
 pysocks = "1.7.1"
 
 [[package]]
-category = "kimo"
+category = "main"
 description = "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information."
 name = "pysocks"
 optional = false
@@ -35,7 +35,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 version = "1.7.1"
 
 [[package]]
-category = "kimo"
+category = "main"
 description = "Pure-Python RSA implementation"
 name = "rsa"
 optional = false
@@ -46,7 +46,7 @@ version = "4.6"
 pyasn1 = ">=0.1.3"
 
 [[package]]
-category = "kimo"
+category = "main"
 description = "Full-featured Telegram client library for Python 3"
 name = "telethon"
 optional = false
@@ -61,7 +61,7 @@ rsa = "*"
 cryptg = ["cryptg"]
 
 [[package]]
-category = "kimo"
+category = "main"
 description = "Fast Telegram Crypto Library for Python"
 name = "tgcrypto"
 optional = false
