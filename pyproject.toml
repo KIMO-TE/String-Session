@@ -8,7 +8,6 @@ authors = ["Kimo <79422815+ANL0KE@users.noreply.github.com>"]
 python = "^3.8"
 Telethon = "^1.14.0"
 TgCrypto = "^1.2.1"
-Pyrogram = "^0.17.1"
 
 [tool.poetry.dev-dependencies]
 
