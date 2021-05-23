@@ -5,11 +5,11 @@ from pyrogram import Client
 
 select = " "
 
-docs = """𓆩 SOURCE ICSS - STRING SESSION 𓆪"""
+docs = """\n𓆩 SOURCE ICSS - STRING SESSION 𓆪"""
 
 tutor = """
 ~ When you finish steps  
-~ You will find String Session in your Telegram save msg
+~ You will find it in your Telegram save msg
 ~ Dev - @rruuurr
 ~ For Sources Icss - Userbot
 """
