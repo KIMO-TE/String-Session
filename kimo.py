@@ -25,7 +25,7 @@ template = """
 print(docs)
 
 while select != ("kimo"):
-    select = input("\n~ Enter < kimo > - ").lower()
+    select = input("\n~ Enter kimo - ").lower()
     if select == "kimo":
         print("""\n~ Telethon selected\n~ Running script...""")
         time.sleep(1)
@@ -38,10 +38,8 @@ while select != ("kimo"):
             saved_messages_template = template.format(session_string)
             print("\nGenerating String Session...\n")
             client.send_message("me", saved_messages_template, parse_mode="html")
-            time.sleep(1)
-            print("Your STRING_SESSION have been sent to your Telegram Saved Messages")
         break
     
     else:
-        print("\n~ please Type < kimo - To get String Session >\n")
+        print("\n~ please Type kimo - To get String Session: \n")
         time.sleep(1.5)
