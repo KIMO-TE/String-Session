@@ -8,11 +8,10 @@ select = " "
 docs = """𓆩 SOURCE ICSS - STRING SESSION 𓆪"""
 
 tutor = """
-~ go-to my.telegram.org
-~ Login using your Telegram account
-~ Click on API Development Tools
-~ Create a new application, by entering the required details
-~ Check your Telegram saved messages section to copy the STRING_SESSION
+~ When you finish steps  
+~ You will find String Session in your Telegram save msg
+~ Dev - @rruuurr
+~ For Sources Icss - Userbot
 """
 
 template = """
@@ -26,7 +25,7 @@ template = """
 print(docs)
 
 while select != ("kimo"):
-    select = input("Type < kimo > ~ ").lower()
+    select = input("\n~ Enter < kimo > - ").lower()
     if select == "kimo":
         print("""\n~ Telethon selected\n~ Running script...""")
         time.sleep(1)
